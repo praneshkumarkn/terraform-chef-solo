@@ -3,7 +3,7 @@ terraform {
     bucket = "praneshs3"
     key = "backend/terraform.tfstate"
     access_key = "*****"
-    secret_key = "*****k"
+    secret_key = "*****"
     region     = "us-east-1"
  }
 }
