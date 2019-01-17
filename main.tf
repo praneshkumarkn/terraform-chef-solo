@@ -4,7 +4,7 @@ terraform {
     key = "backend/terraform.tfstate"
     access_key = "*****"
     secret_key = "*****k"
-    region     = "us-east-1"
+    region     = "region name"
  }
 }
 
