@@ -2,8 +2,8 @@ terraform {
   backend "s3" {
     bucket = "praneshs3"
     key = "backend/terraform.tfstate"
-    access_key = "AKIAJRJ4HHV6VUWNHJ7Q"
-    secret_key = "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"
+    access_key = "*****"
+    secret_key = "*****k"
     region     = "us-east-1"
  }
 }
@@ -11,8 +11,8 @@ terraform {
 
 provider "aws" {
   region     = "${var.region}"
-   access_key = "AKIAJRJ4HHV6VUWNHJ7Q"
-   secret_key = "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"
+   access_key = "****"
+   secret_key = "*****"
 
 }
   
